@@ -8,3 +8,6 @@ https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/formValidation.
 https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/imgslider.html
 
 https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/todo_list.html
+
+https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/fetchPost
+
