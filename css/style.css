@@ -1,0 +1,103 @@
+.calculator {
+  width: 60%;
+  margin: 20px auto;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background: #182c61;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #330867;
+          box-shadow: 0 0 10px #330867;
+}
+
+.calculator .input-block {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calculator .input-block .input-text {
+  height: 50px;
+  padding: 10px 20px;
+  text-align: right;
+  vertical-align: middle;
+  border-bottom: 1px solid #e5e5e5;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.calculator .input-block .input-text:focus {
+  outline: none;
+  border: none;
+}
+
+.calculator .btns .value {
+  width: 100%;
+  padding: 13px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator .btns .value .btn {
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  -webkit-transition: -webkit-transform .3;
+  transition: -webkit-transform .3;
+  transition: transform .3;
+  transition: transform .3, -webkit-transform .3;
+}
+
+.calculator .btns .value .btn:focus {
+  font-weight: bolder;
+  background-color: #0f0f;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-box-shadow: 0 0 3px #fff;
+          box-shadow: 0 0 3px #fff;
+}
+
+.calculator .btns .value .btn.operator {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  background-color: #333;
+  color: #fff;
+}
+
+.calculator .btns .value .btn.clear, .calculator .btns .value .btn.delete {
+  background-color: #fd7272;
+  color: #fff;
+}
+
+.calculator .btns .value .btn.equal {
+  background-color: #4b7bec;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.calculator .btns #history {
+  height: 100px;
+  overflow: auto;
+  padding: 15px 20px;
+  background-color: #4b7bec;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
