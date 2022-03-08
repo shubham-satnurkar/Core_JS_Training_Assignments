@@ -15,32 +15,39 @@ for(items of buttons){
             screenValue += buttonText;  
             screen.value = screenValue;
         }
-        else if(buttonText == 'AC'){
-            screenValue = ''; 
-            screen.value = '';
-        }
-        else if(buttonText == '='){
-            screen.value='';
-            result.value = eval(screenValue)
-            resultValue = result.value;
-            
-            historyData = screenValue + "=" + eval(screenValue);
-            
-            let p = document.createElement("p");
-            p.style.marginBottom = '5px'; 
-            p.innerText =historyData;
-            history.appendChild(p);
-        }
-        else if(buttonText == 'Del'){   
-            screen.value = screen.value.slice(0, -1);
-            screenValue = screenValue.slice(0, -1);
-        }
         else if(buttonText == '^'){
             buttonText = '**'
             screenValue += buttonText;  
             screen.value = screenValue;
               
         }
+        else if(buttonText == '='){
+            screen.value=screenValue;
+            result.value = eval(screenValue)
+            resultValue = result.value;
+            
+            historyData = screenValue + "=" + eval(screenValue);
+            
+            p = document.createElement("p");
+            p.style.marginBottom = '5px'; 
+            p.innerText =historyData;
+            history.appendChild(p);
+        }
+        else if(buttonText == 'C'){
+            screenValue = ''; 
+            screen.value = '';
+        }
+        else if(buttonText == 'AC'){
+            screenValue = ''; 
+            screen.value = '';
+            result.value = '';
+            p.innerText = ''
+        }
+        else if(buttonText == 'Del'){   
+            screen.value = screen.value.slice(0, -1);
+            screenValue = screenValue.slice(0, -1);
+        }
+        
         else{
             screenValue += buttonText;  
             screen.value = screenValue;
