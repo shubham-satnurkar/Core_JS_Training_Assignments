@@ -26,5 +26,4 @@ Fetch User Detail from API Using javascript :-
 https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/userDetails
 
 Calculator Design With Bootstrap and Javascript :-
-
 https://shubham-satnurkar.github.io/Core_JS_Training_Assignments/calculator.html
